@@ -1,0 +1,288 @@
+.bg-trans {
+  background-color: transparent;
+  border: none;
+}
+
+.font-sixteen {
+  font-size: 16px;
+}
+
+.navbar {
+  position: sticky;
+  background-color: white;
+  top: 0;
+  z-index: 2;
+
+  /* margin-top: 109px; */
+}
+
+.appbar {
+  float: right;
+}
+
+.men {
+  margin-left:70px;
+}
+
+.logo {
+  height: 60px;
+  width: 80px;
+}
+
+.women {
+  margin-left:40px;
+}
+
+.kids {
+  margin-left: 40px;
+}
+
+.page {
+  padding-left: 40px;
+}
+
+.blog {
+  padding-left: 40px;
+}
+
+.contact {
+  padding-left: 40px;
+}
+
+.icons-bar {
+  padding-left: 250px;
+  display: flex;
+
+}
+
+.heart {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.bag {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.person {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchin {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+.searchbar {
+  height: 35px;
+  width: 30vw;
+  margin-left: 150px;
+}
+
+/* .searchbar{
+  padding-left:305px;
+} */
+
+
+/* This is product display */
+
+.container {
+  width: fit-content;
+  /* border: 2px solid black; */
+  /* margin-right:32px; */
+}
+
+.product-display {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: #bbdefb; */
+  height: 100%;
+  padding: 15px;
+  gap: 30px;
+  width: 100%;
+  /* width:1042px; */
+  /* height:1226; */
+  /* text-align: center; */
+  /* margin-left:44px;
+  margin-right:36px; */
+}
+
+.product-in {
+  width: 100%;
+  height: auto;
+}
+
+.productname {
+  width: 140px;
+  height: 22px;
+  left: 896px;
+  top: 497px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.product-details {
+  justify-content: center;
+  width: 15vw;
+}
+
+.pricebar {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.rs,
+.price,
+.mrp,
+.discount {
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.mrp {
+  text-decoration-line: line-through;
+
+  color: #A4A4A4;
+
+}
+
+.discount {
+  color: #F40F00;
+
+}
+
+.page-view {
+  display: flex;
+  width: 100%;
+}
+
+/* sort */
+
+.sort {
+  display: flex;
+  margin-top: 10px;
+}
+
+
+.sorticon {
+  padding-left: 670px;
+}
+
+.sort-dropdown {
+  position: fixed;
+  height: 35px;
+  width: 18vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+
+}
+
+.size-dropdown {
+  position: fixed;
+  width: 5vw;
+  height: 35px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+
+}
+
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  display: inline-block;
+  position: absolute;
+}
+
+.navbar-items {
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top:100%;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+.men:hover, .men:focus{
+  border-bottom: 2px solid lightskyblue;
+  cursor: pointer;
+}
+.women:hover, .women:focus{
+  border-bottom: 2px solid lightskyblue;
+  cursor: pointer;
+}
+.kids:hover, .kids:focus{
+  border-bottom: 2px solid lightskyblue;
+  cursor: pointer;
+}
+
+.men-content{
+  left:11.5%;
+}
+.women-content{
+  left:19%;
+}
+.kids-content{
+  left:27%;
+}
+.dropdown-list{
+  display: flex;
+  list-style-type:none;
+}

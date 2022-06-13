@@ -1,0 +1,22 @@
+.sidebar {
+    border: 1px solid lightgrey;
+    width: 40vw;
+    min-width:200px;
+    max-width:300px;
+    height: fit-content;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top:0;
+}
+.categories{
+    /* border: 1px solid lightgrey; */
+    width: 35vw;
+    max-width:250px;
+    padding: 10px;
+    margin-left:5px;
+}
+label{
+    margin-bottom:-10px;
+}
