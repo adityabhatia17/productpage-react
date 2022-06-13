@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/productpage-react/static/css/main.a8ecb997.css",
+    "main.js": "/productpage-react/static/js/main.42e099a1.js",
+    "static/js/787.dcc73137.chunk.js": "/productpage-react/static/js/787.dcc73137.chunk.js",
+    "static/media/shirt.png": "/productpage-react/static/media/shirt.98104796d48e93cb959e.png",
+    "static/media/logo.png": "/productpage-react/static/media/logo.c9242e508b090647529d.png",
+    "index.html": "/productpage-react/index.html",
+    "main.a8ecb997.css.map": "/productpage-react/static/css/main.a8ecb997.css.map",
+    "main.42e099a1.js.map": "/productpage-react/static/js/main.42e099a1.js.map",
+    "787.dcc73137.chunk.js.map": "/productpage-react/static/js/787.dcc73137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8ecb997.css",
+    "static/js/main.42e099a1.js"
+  ]
+}
